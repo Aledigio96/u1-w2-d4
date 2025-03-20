@@ -118,6 +118,9 @@ console.log(cutString("Alessandro"));
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
  */
 
+const casualArray = [];
+console.log(casualArray);
+
 function giveMeRandom(n) {
   const casualArray = Math.floor(Math.random() * n);
   return casualArray;
