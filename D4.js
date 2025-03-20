@@ -45,6 +45,9 @@ console.log(crazyDiff(Math.floor(Math.random() * 100)));
 function boundary(n) {
   if ((n >= 20 && n <= 100) || n === 400) return true;
 }
+else{
+    return false
+}
 console.log(boundary(20));
 console.log(boundary(60));
 console.log(boundary(100));
