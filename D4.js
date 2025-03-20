@@ -20,7 +20,7 @@ function crazySum(num1, num2) {
     return num1 + num2;
   }
 }
-//console.log(crazySum(7, 7));
+console.log(crazySum(7, 7));
 console.log(crazySum(6, 8));
 
 /* ESERCIZIO 3
