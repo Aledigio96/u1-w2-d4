@@ -5,8 +5,8 @@
 function area(lato1, lato2) {
   return lato1 * lato2;
 }
-const areaRettangolo = area(6, 9);
-console.log(areaRettangolo);
+
+console.log(area(6, 9));
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
  La funzione deve ritornare la somma dei due parametri, ma se il valore dei due parametri è il medesimo deve invece tornare
